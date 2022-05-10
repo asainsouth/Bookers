@@ -1,0 +1,17 @@
+<body>
+
+<p>
+  <strong>Title:<%= @book.title %></strong>
+
+</p>
+
+<p>
+  <strong>Body:<%= @book.body %></strong>
+
+</p>
+
+<p><%= link_to "edit", edit_book_path(@book.id)%></p>
+<p><%= link_to "Back", books_path %></p>
+
+
+</body>
